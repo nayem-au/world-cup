@@ -171,7 +171,14 @@ footer {
 }
 .option{
     border: 1px solid #E8E8E8;
+    text-decoration: none;
+    color: #161616;
 }
+
+a:hover {
+    cursor: pointer;
+    background-color: #DD0000;
+  }
 .transfer{
     display: flex;
     flex-direction: column;
@@ -188,14 +195,39 @@ footer {
         flex-direction: column;
     } 
 }
+
+.alignment{
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+}
 .flags{
+    width: 252 px;
+    height: 56.18 px;
     display: flex;
+    flex:auto;
     flex-flow: row;
+    align-items: center;
+    
 }
 .para{
-    flex: auto;
+    margin: 5%;
+}  
+.flagItems{
+    width: 312px;
+    height: 242px;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    
 }
-.box{
-    width: 5%;
-    height: 10%;
+
+.gridItems{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    row-gap: 50px;
+}
+.middlebox{
+    width: 252px;
+    height: 136.58px;
+    margin: 50px 35px;
 }
