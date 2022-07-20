@@ -21,7 +21,7 @@ p{
 }
 h4{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
 }
 h5{
     font-size: 18px;
@@ -52,7 +52,7 @@ h5{
     height: 252px;
    
     border-radius: 10px;
-    background-color: black;
+    background-color:#161616;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,5 +108,94 @@ h5{
 .mini-transfer{
      border: 1px solid gray;
     border-radius: 5px;
-    
+}
+.fa-light{
+    color: #161616B2;
+}
+.fa-clock{
+    color:#161616B2,
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 5%;
+    background-color:#161616;
+    color:white;
+    margin-top: 10%;
+  }
+
+.footer-text{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    color:#B9B9B9;
+}
+.fa-twitter, .fa-facebook ,.fa-youtube{
+    color: white;
+}
+
+/* small device */
+
+@media only screen and (max-width: 576px){
+    main{
+        /* margin: 10% 10% 0% 7%; */
+    }
+   
+.top-banner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    /* margin: 5%; */
+} 
+.banner-text{
+    text-align: center;
+    width: fit-content;
+}
+.banner-image img{
+    width:70%;
+    height: fit-content;
+    margin-bottom: -5px;
+    position:relative;
+    left:8%;
+}
+.section-2{
+    display: flex;
+    flex-direction: column;
+   /* grid-template-columns: repeat(1, 1fr); */
+}
+.options{
+    margin-bottom: 10%;
+    margin-left:20%;
+    background-color:white;
+}
+.option{
+    border: 1px solid #E8E8E8;
+}
+.transfer{
+    display: flex;
+    flex-direction: column;
+}
+    h1{
+        font-size: 22px;
+        font-weight: 700;
+    }
+    main{
+        text-align: center;
+        
+    }
+    .footer-text{
+        flex-direction: column;
+    } 
+}
+.flags{
+    display: flex;
+    flex-flow: row;
+}
+.para{
+    flex: auto;
+}
+.box{
+    width: 5%;
+    height: 10%;
 }
